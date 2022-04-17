@@ -1,0 +1,17 @@
+﻿@model MenaxhimiGjendjes.Models.Guest
+<style>
+.form-control{
+    width:50%;
+}
+</style>
+
+
+<form asp-controller="Home" asp-action="FormaTeDhenaPersonale" method="post">
+
+    <label>Email:</label><input asp-for="Email" class="form-control"/><br />
+     <label>Username:</label><input asp-for="Username" class="form-control"/><br />
+      <label>Mosha</label><input asp-for="Mosha" class="form-control"/><br />
+      <input type="submit" value="Ruaj" class="btn btn-primary"/>
+
+    <!-- <input type="hidden" asp-for="Id" value="1" />-->   
+</form>

@@ -1,0 +1,9 @@
+﻿@model string
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Mirëserdhet</h1>
+    <p>Preferenca juaj është: @Model <a asp-controller="Home" asp-action="HiqPreference">Hiq Preference</a></p>
+</div>
